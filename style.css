@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Geral =========== */
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'JetBrains Mono', monospace;
+    background-color: #2F2E41;
+}
+
+.page {
+    max-width: 1280px;
+    padding: 0 4%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 101px;
+    padding-top: 71px;
+}
+
+nav ul {
+    list-style: none;
+
+    display: flex;
+    gap: 64px;
+}
+
+a, footer {
+    font-size: 14px;
+    color: #fff;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-bottom: 157px;
+}
+
+section .callText h1 {
+    font-size: 36px;
+    color: #fff;
+    line-height: 40px;
+
+    margin-bottom: 59px;
+}
+
+span {
+    color: #00BFA6;
+    font-weight: bold;
+}
+
+.callText p {
+    width: 582px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #C2C2C2;
+    line-height: 28px;
+
+    text-align: center;
+}
+
+.padlock {
+    position: fixed;
+    bottom: 23px;
+    left: 0;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 23px;
+}
+
+.line {
+    width: 568px;
+    height: 0;
+
+    border: 1px solid #00BFA6;
+    margin: 0 auto 27px;
+}
