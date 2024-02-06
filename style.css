@@ -74,8 +74,8 @@ span {
 
 .padlock {
     position: fixed;
-    bottom: 23px;
-    left: 0;
+    bottom: 20px;
+    left: 20px;
 }
 
 footer {
